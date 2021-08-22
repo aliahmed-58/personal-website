@@ -1,0 +1,41 @@
+.main {
+    margin: 2rem 10rem 2rem 10rem;
+}
+.main h1 {
+    font-size: 3rem;
+}
+
+.main p {
+    font-size: 1.5rem;
+}
+
+.skills {
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+}
+
+.skills h4 {
+    font-size: 1.6rem;
+}
+
+.skills ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.skills ul li {
+    background: #fcefee;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 2rem;
+}
+
+.skills ul li:hover {
+    transition: all 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
